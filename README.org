@@ -1,0 +1,11 @@
+* TO DO [1/6]
+- [X] go through entire package and add comments, docstrings, good formatting, NOTEs and TODOs
+- [ ] explain how package works (use prose and diagram to show control flow)
+- [ ] figure out if package works well enough to refactor or if there's a better design that needs a new package
+
+If doing refactor:
+- [ ] go through pull requests and forks and merge good suggestions
+- [ ] standardize package prefix (probably lpp)
+- [ ] add =let= statements to make some long oneliners (e.g. with regexps) more clear
+* Changes so far
+1. Added docstring and inline comments to everything in =latex-preview-pane.el=.
